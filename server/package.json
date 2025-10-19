@@ -1,0 +1,30 @@
+{
+  "name": "stock-broking-backend",
+  "version": "1.0.0",
+  "description": "Stock broking app backend with Alpha Vantage, Yahoo Finance, and Clearbit integration",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "stock",
+    "trading",
+    "finance",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "node-cache": "^5.1.2",
+    "yahoo-finance2": "^3.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
