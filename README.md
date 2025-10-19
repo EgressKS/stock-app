@@ -142,20 +142,13 @@ NODE_ENV=development
 
 Screenshots from the running app:
 
-![Watchlists](assets/screenshots/watchlists.png)
-![Add to Watchlist Modal](assets/screenshots/add-watchlist-modal.png)
-![Details Chart](assets/screenshots/details-chart.png)
-![Details Full](assets/screenshots/details-full.png)
-![Top Gainers List](assets/screenshots/top-gainers-list.png)
-![Home - Top Gainers/Losers](assets/screenshots/home.png)
-
-(To add the images to git:)
-```bash
-mkdir -p client/assets/screenshots
-# copy your screenshots into the folder, then:
-git add client/assets/screenshots/*.png
-git commit -m "Add app screenshots to README"
-```
+<p align="left" style="display:flex; align-items:flex-start; gap:8px;">
+  <img src="assets/screenshots/home.png-explore.jpg" alt="Home - Top Gainers/Losers" style="height:240px; object-fit:cover;">
+  <img src="assets/screenshots/top-gainers-list.jpg" alt="Top Gainers List" style="height:240px; object-fit:cover;">
+  <img src="assets/screenshots/details-screen.jpg" alt="Details Chart" style="height:240px; object-fit:cover;">
+  <img src="assets/screenshots/add-watchlist-modal.jpg" alt="Add to Watchlist Modal" style="height:240px; object-fit:cover;">
+  <img src="assets/screenshots/watchlists.jpg" alt="Watchlists" style="height:240px; object-fit:cover;">
+</p>
 
 ## License
 
